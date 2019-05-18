@@ -1,52 +1,57 @@
 .Contact {
-  width: 100%;
-  display: flex;
-  padding-right: 15px;
+	width: 100%;
+	display: flex;
+	padding-right: 15px;
 }
 
 .Contact > img {
-  margin-right: 20px;
-  border-radius: 50%;
-  width: 52px;
-  height: 52px;
-  flex: 0 0 auto;
+	margin-right: 20px;
+	border-radius: 50%;
+	width: 52px;
+	height: 52px;
+	flex: 0 0 auto;
+	background: #f1f1f1;
+}
+
+.noImage {
+	padding: 5px !important;
 }
 
 .Contact > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	flex: 1 0 auto;
 }
 
 .Contact > div > h4 {
-  font-size: 15px;
-  line-height: 22px;
-  font-family: heebobold;
-  color: #343b3b;
+	font-size: 15px;
+	line-height: 22px;
+	font-family: heebobold;
+	color: #343b3b;
 }
 
 .Contact > div > p {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .Contact > div > p > span:first-child {
-  font-family: "Nunito", sans-serif;
-  font-weight: 200;
-  font-size: 12px;
-  color: #343b3b;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 190px;
+	font-family: "Nunito", sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	color: #343b3b;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 190px;
 }
 
 .Contact > div > p > span:last-child {
-  font-family: "Nunito", sans-serif;
-  font-size: 10px;
-  color: #343b3b;
+	font-family: "Nunito", sans-serif;
+	font-size: 10px;
+	color: #343b3b;
 }
